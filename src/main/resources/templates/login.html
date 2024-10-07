@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 페이지</title>
+</head>
+<body>
+	<h1>로그인 페이지</h1>
+	<hr/>
+	<form action="/login" method="post">
+		<input type="text" name="username" />
+		<input type="password" name="password" />
+		<button>로그인</button>
+	</form>
+	<br />
+	<a href="/join">회원가입</a>
+	<h1>Social Login</h1>
+	<dir style="display: flex">
+		<a href="/oauth2/authorization/google" style="padding: 0 10px"> google </a>
+		<a href="/oauth2/authorization/naver" style="padding: 0 10px"> naver </a>
+	</dir>
+</body>
+</html>
